@@ -1,0 +1,9 @@
+SHA256(OpenWrt-ImageBuilder-brcm47xx-generic.Linux-x86_64.tar.bz2)= f98835bf6b3058cb56aba4aba718154b4191a7925122b31f67dc9623ee7dc57d
+SHA256(openwrt-brcm47xx-generic-linksys-e3000-v1-squashfs.bin)= e2ce8078dbbb6b6656a4dd758cd43682e4c2ef470e572072f640bf98acb0c794
+SHA256(openwrt-brcm47xx-generic-linksys-wrt300n-v1.1-squashfs.bin)= 635fd3fe81f10b2869cd7e8f7103e3dcffb7092e23a20ff00942f844e7cf48a0
+SHA256(openwrt-brcm47xx-generic-linksys-wrt310n-v1-squashfs.bin)= 9ac4e4444103776f7d53b20a385ebcfe477161e6f5bbd29a1ac40a9f838f9d93
+SHA256(openwrt-brcm47xx-generic-linksys-wrt350n-v1-squashfs.bin)= cfbccc67d0bb10649ad13ebb411c29d53db6e7bc0c967ca10956c256b33f6bac
+SHA256(openwrt-brcm47xx-generic-linksys-wrt610n-v1-squashfs.bin)= 445c2c9c00cb5b719181f2fa45158d02ec4a8710c3a8687fc3a89bf5f8b0d5fa
+SHA256(openwrt-brcm47xx-generic-linksys-wrt610n-v2-squashfs.bin)= b1b786160499a28c93035b79f0fa43f0eac16807445f0e7fb1f2717eb40bb2a6
+SHA256(openwrt-brcm47xx-generic-standard-squashfs.trx)= 072be6c0fccb31022541a7cc1aa96edb0fbeb5380a117869704c579a23e08b34
+SHA256(sha256sums)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

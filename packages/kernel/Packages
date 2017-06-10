@@ -1,0 +1,710 @@
+Package: kmod-b43
+Version: 4.1.35+2016-05-12-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-mac80211
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm47xx
+Installed-Size: 279893
+Filename: kmod-b43_4.1.35+2016-05-12-1_brcm47xx.ipk
+Size: 275709
+MD5Sum: 7a5be07beb796b0149a2090ceb7124fe
+SHA256sum: 20ae4979c413dc2be9edc9fbe67a3c35708b11dae90d415f48bf17ffd1129670
+Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
+
+Package: kmod-b43legacy
+Version: 4.1.35+2016-05-12-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-mac80211, b43legacy-firmware
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm47xx
+Installed-Size: 47261
+Filename: kmod-b43legacy_4.1.35+2016-05-12-1_brcm47xx.ipk
+Size: 48018
+MD5Sum: f1642c38401e128a8612c423bc23918b
+SHA256sum: 6c4ddf560d687f68b7f348caebcfdb2d9add6a92baafebbee476684c333c9bf3
+Description:  Kernel module for Broadcom 43xx-legacy wireless support (mac80211 stack) new
+
+Package: kmod-b44
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-mii, kmod-libphy
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 14734
+Filename: kmod-b44_4.1.35-1_brcm47xx.ipk
+Size: 15534
+MD5Sum: b4e2824d5c217d57f44982c6b4b20b8b
+SHA256sum: cfb6fad0a268f398fecdfa1f45bf78f246c5dad6c5803a1999902bac1a50feb4
+Description:  Kernel modules for Broadcom 44xx Ethernet adapters.
+
+Package: kmod-bgmac
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 10094
+Filename: kmod-bgmac_4.1.35-1_brcm47xx.ipk
+Size: 10900
+MD5Sum: a2bf1f7f1b221bbde208781f0f440648
+SHA256sum: 5ecb2fade9136dc92a4200930c6cdfa4841d3f10ef573064c816e42d71bcd6ef
+Description:  Kernel modules for Broadcom bgmac Ethernet adapters.
+
+Package: kmod-cfg80211
+Version: 4.1.35+2016-05-12-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), iw
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm47xx
+Installed-Size: 123878
+Filename: kmod-cfg80211_4.1.35+2016-05-12-1_brcm47xx.ipk
+Size: 124371
+MD5Sum: fd045741d54bbd987f7f366e0cf22577
+SHA256sum: 0622b27b66ca6377393453bace4c044f511f956ee91a39b448da8a42eadb1320
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
+Package: kmod-crypto-hash
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 6391
+Filename: kmod-crypto-hash_4.1.35-1_brcm47xx.ipk
+Size: 7194
+MD5Sum: 16fab7b22022206b18053d42914ff99f
+SHA256sum: da2256eee2e18aec2dd503c5d4054efe7474d3ffaff63e873a09b1c163ed100c
+Description:  CryptoAPI hash support
+
+Package: kmod-dnsresolver
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 103
+Filename: kmod-dnsresolver_4.1.35-1_brcm47xx.ipk
+Size: 812
+MD5Sum: 0c98ff86bc09921a3fa701b348037228
+SHA256sum: 8743c9679aedf99c1c4be63250e257b0f80ac055b5704df04790ba3475149818
+Description:  In-kernel DNS Resolver
+
+Package: kmod-fs-ext4
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-lib-crc16, kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 217681
+Filename: kmod-fs-ext4_4.1.35-1_brcm47xx.ipk
+Size: 217818
+MD5Sum: d43ab88d8d385b046f362223a863e822
+SHA256sum: 27c0a0828c5b49420039feef9106d603e48ba6cd5158f0a2477095d6aeaec547
+Description:  Kernel module for EXT4 filesystem support
+
+Package: kmod-fs-nfs-common
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 111110
+Filename: kmod-fs-nfs-common_4.1.35-1_brcm47xx.ipk
+Size: 111711
+MD5Sum: ffbff7209dec47401584a51a88638fb8
+SHA256sum: 0fc418f66b373408af5ae36af0b3a07d42cafafd9e705e7e8608836dce6bfbf0
+Description:  Common NFS filesystem modules
+
+Package: kmod-fs-nfs
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-fs-nfs-common, kmod-dnsresolver
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 73214
+Filename: kmod-fs-nfs_4.1.35-1_brcm47xx.ipk
+Size: 73892
+MD5Sum: 45f3c19ecd818a09a107a831c97711f7
+SHA256sum: 556895197abb072575a77f5b3cbbd359488af5ca4ae02501237449d7db7a42d6
+Description:  Kernel module for NFS support
+
+Package: kmod-gpio-button-hotplug
+Version: 4.1.35-2
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/gpio-button-hotplug
+Section: kernel
+Architecture: brcm47xx
+Installed-Size: 4318
+Filename: kmod-gpio-button-hotplug_4.1.35-2_brcm47xx.ipk
+Size: 5236
+MD5Sum: 48564af060c109ead343fdbd4eaf5c43
+SHA256sum: 815b05d81a5b894d9423c268d1c456cc43583fbe443cdf035f4abef47350573a
+Description:  This is a replacement for the following in-kernel drivers:
+ 1) gpio_keys (KEYBOARD_GPIO)
+ 2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
+ 
+ Instead of generating input events (like in-kernel drivers do) it generates
+ uevent-s and broadcasts them. This allows disabling input subsystem which is
+ an overkill for OpenWrt simple needs.
+
+Package: kmod-hwmon-core
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 2075
+Filename: kmod-hwmon-core_4.1.35-1_brcm47xx.ipk
+Size: 2835
+MD5Sum: 6b4b38a07295ef84da01bcd7e7740c47
+SHA256sum: 6d77e21e384d6ee90941826d374f96c9248fead6ab437b0036fc8abda5b00f06
+Description:  Kernel modules for hardware monitoring
+
+Package: kmod-ip6tables
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nf-ipt6, kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 8372
+Filename: kmod-ip6tables_4.1.35-1_brcm47xx.ipk
+Size: 9196
+MD5Sum: c1cce94c484fae5b25a7aaa3cde735e3
+SHA256sum: 3c446b22069abdbf7816621407014a5eb2e8440d9036a4a0f2ea2cfaafaa76b4
+Description:  Netfilter IPv6 firewalling support
+
+Package: kmod-ipt-conntrack
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-ipt-core, kmod-nf-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 4690
+Filename: kmod-ipt-conntrack_4.1.35-1_brcm47xx.ipk
+Size: 5521
+MD5Sum: afd693c7222f45f08e81efb25fb00852
+SHA256sum: ee8a4bd98ba46bc94c6a6f23c9417964ffceba05cf8ae604c7a3dc01815e707b
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nf-ipt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 16051
+Filename: kmod-ipt-core_4.1.35-1_brcm47xx.ipk
+Size: 16940
+MD5Sum: 7e67c12421afa40805ad4916020f25d2
+SHA256sum: 357325e07152389819b19a16ef523dfbc96909cda823b9613f709e8cd251908a
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-nat
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-ipt-core, kmod-nf-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 3869
+Filename: kmod-ipt-nat_4.1.35-1_brcm47xx.ipk
+Size: 4719
+MD5Sum: 36d97effc60832d49c7085748833aa78
+SHA256sum: fc0fec116169b2de5ac07d32853dd073efc9b7d3fda3cf5fefaadd40c28a2ed1
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-leds-gpio
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 2588
+Filename: kmod-leds-gpio_4.1.35-1_brcm47xx.ipk
+Size: 3372
+MD5Sum: d3d2fcab45d3adda000d406312aa2e40
+SHA256sum: 8f4cce2a44fc2f050becd0e457cf5e983881bbe0846715976c0f1ed63e3ea3d0
+Description:  Kernel module for LEDs on GPIO lines
+
+Package: kmod-ledtrig-default-on
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 240
+Filename: kmod-ledtrig-default-on_4.1.35-1_brcm47xx.ipk
+Size: 1047
+MD5Sum: 4663bd97292cce35d76e5ca87ab35bee
+SHA256sum: 1b5f60c0bf62f04e4f3d4b6c21bbc4e4ab786d055dd71eb68092d66d14c63951
+Description:  Kernel module that allows LEDs to be initialised in the ON state
+
+Package: kmod-ledtrig-netdev
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 192
+Filename: kmod-ledtrig-netdev_4.1.35-1_brcm47xx.ipk
+Size: 990
+MD5Sum: 8a29fc59af60272fda8ff38a1e3275e2
+SHA256sum: c5d4800be229461ebfd62e918e7106d21eab682323ced1e2d5864ac69f27ca9f
+Description:  Kernel module to drive LEDs based on network activity
+
+Package: kmod-ledtrig-timer
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 236
+Filename: kmod-ledtrig-timer_4.1.35-1_brcm47xx.ipk
+Size: 1051
+MD5Sum: 7265f6d02600db266b248c98a1e58fe2
+SHA256sum: ddef30e19efa7158a3b67c6cf63b4f5c7c935fa75a8e486aaf732c52bfcf1deb
+Description:  Kernel module that allows LEDs to be controlled by a programmable timer
+ via sysfs
+
+Package: kmod-lib-crc-ccitt
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 1306
+Filename: kmod-lib-crc-ccitt_4.1.35-1_brcm47xx.ipk
+Size: 2112
+MD5Sum: 27ee21aee13f2a4e10d71b4cbef7599d
+SHA256sum: 2352072a11444099abdb1f24e606119b3f5b1214f32501ecf8a2da863560ca9f
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-crc16
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 1279
+Filename: kmod-lib-crc16_4.1.35-1_brcm47xx.ipk
+Size: 2086
+MD5Sum: 52355da94e0697eac74c5868de474e2a
+SHA256sum: 2338daa29623cbf6586cbc8b510f6ab2132bd6fd9932e295366f4f85694e4218
+Description:  Kernel module for CRC16 support
+
+Package: kmod-libphy
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 229
+Filename: kmod-libphy_4.1.35-1_brcm47xx.ipk
+Size: 999
+MD5Sum: fdcf1446f55d8c78885d35b5b3a01a8f
+SHA256sum: 781379db53c32307babb54bf84068d732b86b6d0bd8f1d00af5d847f0a20789e
+Description:  PHY library
+
+Package: kmod-mac80211
+Version: 4.1.35+2016-05-12-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-cfg80211, hostapd-common
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm47xx
+Installed-Size: 225802
+Filename: kmod-mac80211_4.1.35+2016-05-12-1_brcm47xx.ipk
+Size: 225464
+MD5Sum: 6baff782e9965227339a955cf6413d9a
+SHA256sum: b0c7e028bb03d1048656407e83e05a9caa0a3d2d1e6ae0ecc78618ded81e43d8
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)
+
+Package: kmod-mii
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 2820
+Filename: kmod-mii_4.1.35-1_brcm47xx.ipk
+Size: 3582
+MD5Sum: 98e4f2da392314c6369917a6eecb9d95
+SHA256sum: 9610d560921f1acf3d748cfc20af9d5e4a624b3b3b2cdeb7a934bb9487805c21
+Description:  MII library
+
+Package: kmod-nf-conntrack6
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nf-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 8880
+Filename: kmod-nf-conntrack6_4.1.35-1_brcm47xx.ipk
+Size: 9706
+MD5Sum: 00a910ebd64a39891710d61b8edbe9ed
+SHA256sum: b861b07c9b09ebb403d91a06f09c921b4aaeb00f9aa4fce5cdc6917f5f4e5882
+Description:  Netfilter IPv6 connection tracking
+
+Package: kmod-nf-conntrack
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 36734
+Filename: kmod-nf-conntrack_4.1.35-1_brcm47xx.ipk
+Size: 37511
+MD5Sum: dc7991426c623c33a06162ab84d701a3
+SHA256sum: b90f9f3dab48cb7b018e3a462a5adfb3a995ac6a0b17347c4840f62ccc60a220
+Description:  Netfilter connection tracking
+
+Package: kmod-nf-ipt6
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nf-ipt, kmod-nf-conntrack6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 7392
+Filename: kmod-nf-ipt6_4.1.35-1_brcm47xx.ipk
+Size: 8231
+MD5Sum: 11d5bbde087b51a8a6b1fc7bb8e838cf
+SHA256sum: f34d0a32cbd85a57669a048ffd118dafc8eaad163d3008388353f17c7824a0c8
+Description:  Ip6tables core
+
+Package: kmod-nf-ipt
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 14766
+Filename: kmod-nf-ipt_4.1.35-1_brcm47xx.ipk
+Size: 15508
+MD5Sum: 2b63c60e7bc5c51776354b8f1b9fc52f
+SHA256sum: b6d80f3b384b7082f0088689cafec2c6df0b46aa660cdbbd84dc89aa86bdba9c
+Description:  Iptables core
+
+Package: kmod-nf-nat
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nf-conntrack, kmod-nf-ipt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 10942
+Filename: kmod-nf-nat_4.1.35-1_brcm47xx.ipk
+Size: 11709
+MD5Sum: 80b299609f28f4de4ebbc079458aced1
+SHA256sum: d2a44ea35952008cae236f2589e11d7a9551611a4b05748d3c5401d450006e5b
+Description:  Netfilter NAT
+
+Package: kmod-nls-base
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 3105
+Filename: kmod-nls-base_4.1.35-1_brcm47xx.ipk
+Size: 3836
+MD5Sum: e560aa65893c6cfbcf0a6e62eb3c3d4b
+SHA256sum: 68486812c5a1f9f18319b0b10c71bf222a140b269d1b65391ea6a6b23bd87f7d
+Description:  Kernel module for NLS (Native Language Support)
+
+Package: kmod-nls-iso8859-1
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 1699
+Filename: kmod-nls-iso8859-1_4.1.35-1_brcm47xx.ipk
+Size: 2529
+MD5Sum: 6b8fb8d078e307c1f8c1c573cf4c317b
+SHA256sum: b416cab134451d498b785cbd9a7b465bba5f5910176df758d4b212102760c0e7
+Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
+
+Package: kmod-nls-utf8
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 963
+Filename: kmod-nls-utf8_4.1.35-1_brcm47xx.ipk
+Size: 1765
+MD5Sum: 7fa25b3a72ed3b828fb2a2a9fe143cae
+SHA256sum: b6652a753bafe5ec8f0606d5c2ec9b1594a2e3f5d016869689225cd701ee99e2
+Description:  Kernel module for NLS UTF-8
+
+Package: kmod-ppp
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-lib-crc-ccitt, kmod-slhc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 19688
+Filename: kmod-ppp_4.1.35-1_brcm47xx.ipk
+Size: 20470
+MD5Sum: f349490cabc87b05bd59bbdf17e9d10e
+SHA256sum: 5428b612737f296dc78e6328db98072f16b232f3b061ac7ded8a0add4d4a89bb
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoe
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-ppp, kmod-pppox
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 6549
+Filename: kmod-pppoe_4.1.35-1_brcm47xx.ipk
+Size: 7390
+MD5Sum: 120c451a0b67af0c864c8674a420e3c0
+SHA256sum: 1cea8b8e9eec9d186ea1587b62595b28d93ba1d33dad641cff5c21a33db4bb7e
+Description:  Kernel module for PPPoE (PPP over Ethernet) support
+
+Package: kmod-pppox
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-ppp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 1567
+Filename: kmod-pppox_4.1.35-1_brcm47xx.ipk
+Size: 2320
+MD5Sum: 7f74e9e6c9ecdc76d891546d928d7287
+SHA256sum: d589f22931ae9325e2b2b17dbf7a576a809ad77142332a1129be7c7da9f25d94
+Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-pps
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 4895
+Filename: kmod-pps_4.1.35-1_brcm47xx.ipk
+Size: 5734
+MD5Sum: 879e66d6f6fb4bdb2e2686951911f77e
+SHA256sum: daa2c106f72ee02ad13ff6a0819b323bb135b14f273467ba93a447040637f3e4
+Description:  PPS (Pulse Per Second) is a special pulse provided by some GPS
+ antennae. Userland can use it to get a high-precision time
+ reference.
+
+Package: kmod-ptp
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-pps
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 7072
+Filename: kmod-ptp_4.1.35-1_brcm47xx.ipk
+Size: 7925
+MD5Sum: b07bfdb05fd19778056d48845b90d381
+SHA256sum: 2bf6f11bd48b9f3e1e5bdd8b570115c4e63c707dddf3d4f277319476cbe9975d
+Description:  The IEEE 1588 standard defines a method to precisely
+ synchronize distributed clocks over Ethernet networks.
+
+Package: kmod-scsi-core
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 74763
+Filename: kmod-scsi-core_4.1.35-1_brcm47xx.ipk
+Size: 75156
+MD5Sum: 29ae529797e3508a6fcfe50989f2ad26
+SHA256sum: caae9c48dc3f9f725a376d9506b5f54b26a7733809b2276e181bd55677546a76
+Description:  SCSI device support
+
+Package: kmod-slhc
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-lib-crc-ccitt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 3612
+Filename: kmod-slhc_4.1.35-1_brcm47xx.ipk
+Size: 4329
+MD5Sum: a165751d9e6ff13aba7143995094f6ce
+SHA256sum: b2962be65e1ab5454c36bd1c41b0bbd0ab3411d495815e8410dbe05c6b32a45b
+Description:  Serial Line Header Compression
+
+Package: kmod-tg3
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-hwmon-core, kmod-ptp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 72368
+Filename: kmod-tg3_4.1.35-1_brcm47xx.ipk
+Size: 73115
+MD5Sum: 1ce3d248ac78348353be34afff25b85d
+SHA256sum: f6b9849491d325e2ad14444fa31f86c82c3de70b618d13bb019425e35905d539
+Description:  Kernel modules for Broadcom Tigon3 Gigabit Ethernet adapters
+
+Package: kmod-usb-bcma
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 2237
+Filename: kmod-usb-bcma_4.1.35-1_brcm47xx.ipk
+Size: 3023
+MD5Sum: 453c65856c242d2c7fa00ae57026e308
+SHA256sum: 511515f417ecaf37befc069659d5f57a2b666e931838017054918a24cfadb38f
+Description:  Support for BCMA USB controllers
+
+Package: kmod-usb-core
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 74131
+Filename: kmod-usb-core_4.1.35-1_brcm47xx.ipk
+Size: 74693
+MD5Sum: cdff4e995bb032097cec62b3350d8e69
+SHA256sum: d4e8ff39fb480c7228ca75fcc1de3f44c6e13aa6f9c56fa3d699d389048eb660
+Description:  Kernel support for USB
+
+Package: kmod-usb-ssb
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 1864
+Filename: kmod-usb-ssb_4.1.35-1_brcm47xx.ipk
+Size: 2642
+MD5Sum: cdae7388e5d562d4eae26159fb9a9973
+SHA256sum: 69bb9f4d1929463396c93e24c2d7d91a6cfe9e328460a7b58e32298c73805723
+Description:  Support for SSB USB controllers
+
+Package: kmod-usb-storage
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-scsi-core, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 21529
+Filename: kmod-usb-storage_4.1.35-1_brcm47xx.ipk
+Size: 21961
+MD5Sum: 540de4b6cef62f5c0e8e53ebf176e23e
+SHA256sum: f2a3c712d03b0d97ba59d438f68d5d7fe676b488577704efcf76c985907de484
+Description:  Kernel support for USB Mass Storage devices
+
+Package: kmod-usb2
+Version: 4.1.35-1
+Depends: kernel (=4.1.35-1-fb32323d2daf5868efe43a8a86db2670), kmod-usb-bcma, kmod-usb-ssb, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm47xx
+Installed-Size: 23375
+Filename: kmod-usb2_4.1.35-1_brcm47xx.ipk
+Size: 24138
+MD5Sum: 12bd8607c5add648d5944d7ccd75a91e
+SHA256sum: dffdcb6390284de124479de07afec10682490e010488aae390f355020a25f3a7
+Description:  Kernel support for USB2 (EHCI) controllers
+

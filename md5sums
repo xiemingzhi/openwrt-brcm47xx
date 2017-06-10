@@ -1,0 +1,9 @@
+6a7f6094cb3dca20a01622772eb714c8 *OpenWrt-ImageBuilder-brcm47xx-generic.Linux-x86_64.tar.bz2
+efaf33e05be75f268d54706d0b5fdf54 *openwrt-brcm47xx-generic-linksys-e3000-v1-squashfs.bin
+67cf950b7573b59be9be6411dca40244 *openwrt-brcm47xx-generic-linksys-wrt300n-v1.1-squashfs.bin
+cdd628b8fe64802a63fea2b5e73f4d7c *openwrt-brcm47xx-generic-linksys-wrt310n-v1-squashfs.bin
+28fa0ebc72c769fd231c032801d0eaf0 *openwrt-brcm47xx-generic-linksys-wrt350n-v1-squashfs.bin
+c2fadb6243f9335c1eba71b8577a694b *openwrt-brcm47xx-generic-linksys-wrt610n-v1-squashfs.bin
+6189c72fd8325ddee7a66124ed3d12f5 *openwrt-brcm47xx-generic-linksys-wrt610n-v2-squashfs.bin
+ca1eaee6306677d4b12c40c17f7d968e *openwrt-brcm47xx-generic-standard-squashfs.trx
+d2527c665d6aed6c58a15359c2f58bd9 *sha256sums
